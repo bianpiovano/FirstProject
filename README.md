@@ -1,15 +1,11 @@
-# primerproyecto
-Este es mi primer proyecto de Ruby en Cucumber y con Selenium. 
-Es un ejemplo de usuario registrándose en un website de productos tecnológicos.
+# FirstProject
+This is my first Ruby project in Cucumber, with Selenium. 
+User registering on a technological products website. 
 
-#Como ejecutar.
-Nos paramos sobre la carpeta base del proyecto y ejecutamos en el "cmd"
--$ cucumber -f html -o "Reporte.html"
+#How to execute
+We stand on the base folder of the project and run the following command in the "cmd":
+$ cucumber -f html -o "Report.html"
+-f format, -o output (File output)
 
--f formato
--o out (Salida del archivo)
-
-#Que gemas se utilizaron.
-'cucumber'
-'selenium-webdriver'
-
+#Gems used
+'cucumber' 'selenium-webdriver'
